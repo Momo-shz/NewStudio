@@ -96,8 +96,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    uint32_t os_Cnt = 0;
     /* USER CODE END WHILE */
-
+    LED_Mainfunction_1_20ms();
+    HAL_Delay(2000);
+    LED_Mainfunction_2_20ms();
+    HAL_Delay(2000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
